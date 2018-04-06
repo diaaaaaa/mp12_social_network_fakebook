@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pirates-of-the-code-bean-3
+  datasource:
+    url: ${MYSQL_URL}?useSSL=false
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
